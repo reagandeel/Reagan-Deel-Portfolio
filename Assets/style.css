@@ -16,7 +16,7 @@
 }
 */
 .header h1 {
-    font: 60px;
+    font-size: 50px;
     color:blanchedalmond;
     
 }
@@ -72,14 +72,16 @@
 */
 .Information {
    box-sizing: border-box;
-    outline: 3px solid gray;
+    outline: 3px solid white;
     font-size: 29px;
-    margin-left: 30px;
-    border-radius:0px 10px 0px 10px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    border-radius:10px 0px 0px 0px;
     position: absolute;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 41px;
     background: paleturquoise;
+    padding-left: 10px;
 
 }
 /*
@@ -96,19 +98,24 @@
 */
 .Career {
     background: lightskyblue;
-    outline: 3px solid navy;
+    outline: 3px solid white;
     font-size: 29px;
-    margin-left: 30px;
-    border-radius:0px 10px 0px 10px;
+    margin-left: 500px;
+    margin-top: 140px;
+    margin-bottom:20px;
+    border-radius:0px 0px 10px 10px;
     position: absolute;
-    display: inline-block;
-    margin-top: 40px;
+    display: inline-flex;
+    padding: 30px;
+    padding-right:121px;
+
     
 }
 .Contacts {
     margin-bottom: 100px;
     margin-top: 150px;
     display:inline-block;
+    
 }
 /*
 .Contacts:hover .Contact {
@@ -124,10 +131,20 @@
 .Contact {
     background: palevioletred;
     font-size: 29px;
-    margin-left: 30px;
-    border-radius:0px 10px 0px 10px;
+    margin-left: 900px;
+    border-radius:0px 10px 0px 0px;
     position: absolute;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: -229px;
+    margin-bottom: 20px;
+    padding-bottom:57px;
+    padding-left:10px;
+    outline: 3px solid white;
+
+}
+
+.footer {
+    padding: 125px;
+    text-align: center;
 
 }
