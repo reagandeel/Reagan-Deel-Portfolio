@@ -41,7 +41,11 @@
 
 }
 
-
+.Me {
+    width: 300px;
+    border-radius: 300px 300px 300px 300px;
+    justify-content: right;
+}
 .vl {
     border-left: 6px solid pink;
     height: 450px;
@@ -65,24 +69,8 @@
 }
 
 
-/*
-.Project1 {
-    font-size: 34px;
-    display: block;
-    border-radius:10px 10px 10px 10px;
-    outline: 3px solid white;
-    margin-top: -350px;
-    background-color: aliceblue;
-    margin-left: 525px;
-    width: 400px;
-    height: 400px;
-    flex: 0 1 auto;
-    
-}
-*/
-
 .Debug img {
-    width: 35%;
+    width: 45%;
     margin-left: 600px;
     margin-top: -350px;-
     margin-bottom: 200px;
@@ -96,23 +84,10 @@
     margin-top: 50px;
     box-shadow: 5px 3px blue;
 }
-  /*
-.Project2 {
-    font-size: 34px;
-    display: block;
-    border-radius:10px 10px 10px 10px;
-    outline: 3px solid white;
-    background-color: aliceblue;
-    width: 400px;
-    margin-left: 5px;
-    height: 400px;
-    flex: 0 1 auto;
-    
-}
-*/
+
 .vl2 {
     border-left: 6px solid pink;
-    height: 500px;
+    height: 900px;
     margin-left: 500px;
     margin-top: -300px;
     position: absolute;
@@ -126,10 +101,12 @@
         width: 100%;  
         flex-direction: column;
     }
-    .Debug {
+    .Debug, .Portfolio {
         width: 100%;
+        margin-left: -500px;
         
     }
+    
 
     .vl, .vl2, .About-Me, .my-work,.contacts {
         display: none;
@@ -146,11 +123,3 @@
 }
 
 
-/*
-.box image {
-    width: 400px;
-    height: 200px;
-    display: inline-flexbox;
-    float: left;
-    
-}
